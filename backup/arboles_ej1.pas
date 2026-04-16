@@ -157,7 +157,6 @@ begin
     test_suma_hoja_1_8(a);
     test_num_pares_1_9(a);
     test_num_nodos_en_nivel_1_10(a, 4);
-    readln;
 end.
 
 

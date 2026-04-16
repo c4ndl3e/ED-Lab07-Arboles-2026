@@ -200,7 +200,7 @@ end;
   { ---------------Ejercicio 1.7------------------ }
 function max_hoja(a:tbinaryTree): integer;
 begin
-
+  writeln('NO IMPLEMENTADO');
 end;
 
   
