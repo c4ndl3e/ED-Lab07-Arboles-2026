@@ -8,22 +8,22 @@
       <Unit>
         <Filename Value="arboles_ej1.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="134"/>
-        <CursorPos X="27" Y="143"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="38" Y="159"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="uBinaryTree.pas"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="184"/>
-        <CursorPos X="20" Y="196"/>
-        <UsageCount Value="10"/>
+        <TopLine Value="220"/>
+        <CursorPos X="57" Y="246"/>
+        <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
+    <JumpHistory HistoryIndex="12">
       <Position>
         <Filename Value="uBinaryTree.pas"/>
         <Caret Line="136" Column="26" TopLine="117"/>
@@ -51,6 +51,30 @@
       <Position>
         <Filename Value="uBinaryTree.pas"/>
         <Caret Line="64" Column="6" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinaryTree.pas"/>
+        <Caret Line="151" Column="6" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinaryTree.pas"/>
+        <Caret Line="199" Column="3" TopLine="177"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinaryTree.pas"/>
+        <Caret Line="201" Column="24" TopLine="188"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinaryTree.pas"/>
+        <Caret Line="203" Column="25" TopLine="187"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinaryTree.pas"/>
+        <Caret Line="232" Column="75" TopLine="209"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinaryTree.pas"/>
+        <Caret Line="240" Column="3" TopLine="215"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="arboles_ej2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="65"/>
+        <CursorPos X="10" Y="96"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uBinarySearchTree.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="197"/>
+        <CursorPos X="23" Y="217"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uBinaryTree.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="181"/>
+        <CursorPos X="3" Y="188"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="2">
+      <Position>
+        <Filename Value="uBinarySearchTree.pas"/>
+        <Caret Line="216" Column="5" TopLine="187"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinarySearchTree.pas"/>
+        <Caret Line="204" Column="29" TopLine="189"/>
+      </Position>
+      <Position>
+        <Filename Value="uBinarySearchTree.pas"/>
+        <Caret Line="193" TopLine="176"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

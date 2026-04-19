@@ -57,6 +57,4 @@ begin
 
   // Test para `remove` con multiplicidad
   test_remove_multiplicidad(a);
-
-  readln;
 end.

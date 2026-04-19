@@ -8,9 +8,10 @@
         <MainUnitHasCreateFormStatements Value="False"/>
         <MainUnitHasTitleStatement Value="False"/>
         <MainUnitHasScaledStatement Value="False"/>
+        <UseDefaultCompilerOptions Value="True"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="arboles_ej1"/>
+      <Title Value="arboles_ej2_4"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,8 +27,9 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="arboles_ej1.pas"/>
+        <Filename Value="arboles_ej2_4.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="arboles_ej3"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -35,7 +37,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="arboles_ej1"/>
+      <Filename Value="arboles_ej2_4"/>
     </Target>
     <SearchPaths>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>

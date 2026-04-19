@@ -148,10 +148,6 @@ begin
   if a <> nil then begin
     prof_izq:= prof_izq + 1 + profundidad_max(a^.hi);
     prof_der:= prof_der + 1 + profundidad_max(a^.hd);
-  end
-  else begin
-    inc(prof_izq);
-    inc(prof_der);
   end;
   if prof_izq > prof_der then
     profundidad_max:= prof_izq
@@ -170,10 +166,12 @@ end;
 function leafs_count(a:tbinaryTree): integer;
 begin
   leafs_count:= 0;
-  if (a^.hi <> nil) and (a^.hd <> nil) and (a <> nil) then
-    leafs_count:= leafs_count + leafs_count(a^.hi) + leafs_count(a^.hd)
-  else
-    leafs_count:= leafs_count + 1;
+  if a <> nil then begin
+    if (a^.hi <> nil) or (a^.hd <> nil) then {--> Si el nodo no es hoja}
+      leafs_count:= leafs_count + leafs_count(a^.hi) + leafs_count(a^.hd)
+    else {--> Si el nodo es hoja}
+      leafs_count:= leafs_count + 1;
+  end;
 end;
 
 { ---------------Ejercicio 1.5------------------ }
@@ -200,28 +198,55 @@ end;
   { ---------------Ejercicio 1.7------------------ }
 function max_hoja(a:tbinaryTree): integer;
 begin
-  writeln('NO IMPLEMENTADO');
+  max_hoja:= 0;
+  if a <> nil then begin
+    if (a^.hi <> nil) or (a^.hd <> nil) then {--> Si el nodo no es hoja}
+      max_hoja:= max( max_hoja(a^.hi),max_hoja(a^.hd) )
+    else {--> Si el nodo es hoja}
+      max_hoja:= a^.info;
+  end;
 end;
 
   
   { ---------------Ejercicio 1.8------------------ }
 function sum_hoja(a:tbinaryTree): integer; 
 begin
-  writeln('NO IMPLEMENTADO');
+  sum_hoja:= 0;
+  if a <> nil then begin
+    if (a^.hi <> nil) or (a^.hd <> nil) then {--> Si el nodo no es hoja}
+      sum_hoja:= sum_hoja + sum_hoja(a^.hi) + sum_hoja(a^.hd)
+    else {--> Si el nodo es hoja}
+      sum_hoja:= a^.info;
+  end;
 end;
 
 
   { ---------------Ejercicio 1.9------------------ }
 function num_pares(a:tbinaryTree): integer;
 begin
-  writeln('NO IMPLEMENTADO');
+  num_pares:= 0;
+  if a <> nil then begin
+    if odd(a^.info) then
+      num_pares:= num_pares + num_pares(a^.hi) + num_pares(a^.hd)
+    else
+      num_pares:= num_pares + 1 + num_pares(a^.hi) + num_pares(a^.hd);
+  end;
 end;
 
   
     { ---------------Ejercicio 1.10------------------ }
 function num_nodos_en_nivel(a:tbinaryTree; nivel:integer): integer;
+var
+  i: integer;
 begin
-  writeln('NO IMPLEMENTADO');
+  num_nodos_en_nivel:= 0;
+  if a <> nil then begin
+    if nivel = 0 then
+      num_nodos_en_nivel:= num_nodos_en_nivel + 1
+    else
+      num_nodos_en_nivel:= num_nodos_en_nivel + num_nodos_en_nivel(a^.hi,nivel-1) + num_nodos_en_nivel(a^.hd,nivel-1);
+
+  end;
 end;
 
 
