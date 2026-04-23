@@ -191,4 +191,7 @@ begin
 end;
 
 
+procedure mostrar_pila_en_orden(pila: tPilaChars);
+
+
 end.

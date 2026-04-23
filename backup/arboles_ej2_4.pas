@@ -1,4 +1,4 @@
-program arboles_ej3;
+program arboles_ej2_4;
 
 uses uBinarySearchTree;
 
@@ -57,4 +57,6 @@ begin
 
   // Test para `remove` con multiplicidad
   test_remove_multiplicidad(a);
+
+  readln;
 end.

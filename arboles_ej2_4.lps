@@ -8,10 +8,7 @@
       <Unit>
         <Filename Value="arboles_ej2_4.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="arboles_ej3"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="30"/>
-        <CursorPos X="10" Y="61"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
@@ -19,8 +16,8 @@
         <UnitName Value="uBinarySearchTree"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="49"/>
-        <CursorPos X="10" Y="65"/>
+        <TopLine Value="82"/>
+        <CursorPos X="23" Y="65"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>

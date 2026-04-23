@@ -8,9 +8,10 @@
         <MainUnitHasCreateFormStatements Value="False"/>
         <MainUnitHasTitleStatement Value="False"/>
         <MainUnitHasScaledStatement Value="False"/>
+        <UseDefaultCompilerOptions Value="True"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="arboles_ej2_4"/>
+      <Title Value="arboles_ej3"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,8 +27,9 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="arboles_ej2_4.pas"/>
+        <Filename Value="arboles_ej3.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="OrdenarPilaTest"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -35,7 +37,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="arboles_ej2_4"/>
+      <Filename Value="arboles_ej3"/>
     </Target>
     <SearchPaths>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>

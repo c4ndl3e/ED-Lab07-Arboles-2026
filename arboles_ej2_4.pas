@@ -1,4 +1,4 @@
-program arboles_ej3;
+program arboles_ej2_4;
 
 uses uBinarySearchTree;
 

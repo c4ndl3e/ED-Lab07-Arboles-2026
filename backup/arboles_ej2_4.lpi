@@ -8,7 +8,6 @@
         <MainUnitHasCreateFormStatements Value="False"/>
         <MainUnitHasTitleStatement Value="False"/>
         <MainUnitHasScaledStatement Value="False"/>
-        <UseDefaultCompilerOptions Value="True"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
       <Title Value="arboles_ej2_4"/>
@@ -29,7 +28,6 @@
       <Unit>
         <Filename Value="arboles_ej2_4.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="arboles_ej3"/>
       </Unit>
     </Units>
   </ProjectOptions>
